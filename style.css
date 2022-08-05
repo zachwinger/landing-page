@@ -69,8 +69,8 @@ body{
 .section2{
     display: flex;
     flex-direction: column;
-    padding-left: 70px;
-    padding-right: 70px;
+    padding-left: 100px;
+    padding-right: 100px;
     align-items: center;
 }
 
@@ -102,7 +102,28 @@ body{
     height: 120px;
     width: 120px;
     border: 3px solid #3882F6;
-    background-color: lightgray;
+    background-color: #E5E7EB;
     border-radius: 12px;
 }
 
+.section3{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.section3-quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    margin: 0px;
+}
+.section3-thor{
+    text-align: right;
+    font-weight: 700;
+    font-size: 20px;
+    color: #1f2937;
+}
